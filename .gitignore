@@ -1,3 +1,5 @@
 .env
 build
 .cache
+screenshots/*.PNG
+.DS_Store
