@@ -28,13 +28,13 @@ make build
 接下来, 查看帮助:
 
 ```
-/build/shortest-path-visulization-sdl  --help
+./build/path-finding-visualizer --help
 ```
 
 一个运行 `A*` 算法的例子:
 
 ```
- ./build/path-finding-visualizer --start 6,1 --target 6,14 astar
+./build/path-finding-visualizer --start 6,1 --target 6,14 astar
 ```
 
 目前支持的算法:
@@ -70,4 +70,4 @@ make build
 
 ### 其他
 
-字体 [Arrows.ttf](Arrows.ttf) 来自 https://www.dafont.com/arrows.font
+字体 `Arrows.ttf` 来自 https://www.dafont.com/arrows.font.
