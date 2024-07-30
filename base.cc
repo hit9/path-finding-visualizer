@@ -112,7 +112,7 @@ int ParseOptionsFromCommandline(int argc, char *argv[], Options &options) {
       .help("算法名称")
       .metavar("ALGORITHM")
       .choices("dijkstra", "astar", "lpastar", "dijkstra-bi", "astar-bi",
-               "flow-field")
+               "flow-field", "greedy")
       .default_value(std::string("dijkstra"))
       .store_into(options.algorithm);
   program.add_argument("-d4", "--use-4-directions")
